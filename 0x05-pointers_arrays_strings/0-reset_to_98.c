@@ -3,7 +3,7 @@
 /**
  * reset_to_98 - takes pointer to an int as a parameter
  * uodates value it points to to 98
- * n is the input
+ * @n =  the input
  * Return: n
  */
 void reset_to_98(int *n)
