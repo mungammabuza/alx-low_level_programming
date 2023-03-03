@@ -3,7 +3,7 @@
 /**
  * leet - encode into 1337speak
  * @n: input value
- * 
+ *
  * Return: n value
  */
 char *leet(char *n)
@@ -16,7 +16,7 @@ char *leet(char *n)
 	{
 		for (j = 0; j < 10; j++)
 		{
-			if(n[i] == s1[j])
+			if (n[i] == s1[j])
 			{
 				n[i] = s2[j];
 			}
