@@ -16,6 +16,8 @@ int main(void)
 	 * only write one statement
 	 * you are not allowed to code anything beides this line of code
 	 */
+	*(p + 5) = 98;
+	/*...so that this print 98\n */
 	printf("a[2] = %d\n", a[2]);
 	return (0);
 }
