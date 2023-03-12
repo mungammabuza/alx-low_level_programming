@@ -5,7 +5,7 @@
  * _atoi - converts a string to an integer
  * @s: string to be converted
  *
- * Return: int converted from string
+ * Return: n
  */
 int _atoi(char *s)
 {
@@ -62,8 +62,8 @@ int _atoi(char *s)
 
 /**
  * main - multiplies two number
- * @argc: number of arguments
- * @argv: array of arguments
+ * @argc: number of arg
+ * @argv: array of arg
  *
  * Return: 0 (Success), 1 (Error)
  */
