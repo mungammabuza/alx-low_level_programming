@@ -3,14 +3,15 @@
 
 /**
  * main - main function
- * @argc - count number of arguments
- * @argv - array of pointers to the arguments
+ * @argc - argument count ((unused))
+ * @argv - argument vector
  *
- * Return: 0
+ * Return: 0 (success)
  */
-int main(int argc __attribute__((unused)), char **argv)
+int main(int argc, char *argv[])
 {
-	printf("%s\n", argv[0]);
+	(void)argc;
 	
+	printf("%s\n", argv[0]);
 	return (0);
 }
