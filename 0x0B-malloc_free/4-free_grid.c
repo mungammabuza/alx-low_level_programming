@@ -3,17 +3,14 @@
 #include "main.h"
 
 /**
- * free_grid - free 2D array
- * @grid: 2D grid
- * @height: height dimension of grid
- * Desription: free memory of grid
- *
- * Return: nothing
+ * free_grid - frees grid
+ * @grid: grid
+ * @height: height of grid
+ * Return: n/a
  */
 void free_grid(int **grid, int height)
 {
 	int i;
-
 	for (i = 0; i < height; i++)
 	{
 		free(grid[i]);
