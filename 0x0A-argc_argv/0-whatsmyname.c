@@ -1,17 +1,14 @@
-#include "main.h"
 #include <stdio.h>
+#include "main.h"
 
 /**
- * main - main function
- * @argc - argument count ((unused))
- * @argv - argument vector
- *
- * Return: 0 (success)
+ * program that prints its own name
+ * even is name is changed
  */
 int main(int argc, char *argv[])
 {
 	(void)argc;
-	
+
 	printf("%s\n", argv[0]);
 	return (0);
 }
